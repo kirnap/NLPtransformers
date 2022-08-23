@@ -132,7 +132,7 @@ class EncoderLayer(nn.Module):
 
 ######### Decoder #########
 
-# Decoder inserts multi-head attention over the output of encoder stack.
+# Decoder inserts multi-head attention over the output of encoder stack
 
 class Decoder(nn.Module):
     """Generic N layer decoder with masking"""
